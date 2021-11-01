@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        margin: 0;
+        box-sizing: border-box;
+      }
+      .main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 50px;
+      }
+      .image{
+        border-radius: 5px;
+      }
+      .icons {
+        display: flex;
+        flex-direction: row;
+        padding: 5px;
+        margin-top: 0px;
+      }
+      .LikedBy{
+          margin-left: -330px;
+      }
+      .comments{
+          margin-left: -270px;
+      }
+      .icons span{
+        padding: 10px;
+        
+      }
+      #bookMark{
+        margin-left: 240px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="image">
+        <img
+          src="https://images.pexels.com/photos/9813701/pexels-photo-9813701.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+          height="400px"
+          width="400px"
+        />
+      </div>
+      <div class="icons">
+        <span class="material-icons"> favorite_border </span>
+        <span class="material-icons"> chat_bubble_outline </span>
+        <span class="material-icons">
+            near_me
+            </span>
+            <span class="material-icons" id="bookMark">
+              bookmark_border
+              </span>
+        
+      </div>
+      <div class="LikedBy">7344 likes</div>
+      <div class="comments">View all Comments</div>
+    </div>
+  </body>
+</html>
